@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Yanone+Kaffeesatz:400');
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+/** Font for slides content */
+body { 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+/** Font for H1,H2,H3 title */
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: normal;
+}
+.remark-code, .remark-inline-code { 
+  font-family: 'Ubuntu Mono'; 
+  font-size: 15px;
+}
+/** Slide H1 (title) content */
+.remark-slide-content h1 {
+  font-size: 42px;
+  margin-top: -5px;
+  padding-bottom: 5px;
+  color:rgb(202, 52, 21);
+  border-style: solid;
+  border-width:0px 0px 1px 0px;
+}
+/** Slide content */
+.remark-slide-content body {
+  font-size:10px;
+  text-align:justify;
+}
+/** Slide numbering properties */
+.remark-slide-number {
+	font-family: "Droid Serif";
+  margin-right:47%;
+  margin-bottom:5px;
+	font-size: 10px;
+  text-align: center;
+}
+/** LTS5 logo on the bottom right of the slides */
+.lts5-logo {
+  position:absolute;
+  left:5%;
+  bottom:0px;
+}
+/** Epfl logo on the bottom right of the slides */
+.epfl-logo {
+  position:absolute;
+  right:5%;
+  bottom:0px;
+}
+/* Tune style for one slide named : 'title' (defined in markdown file)*/
+#slide-title.remark-slide-content h1{
+  border-width:0px 0px 0px 0px;
+}
+/** Column layout */
+.column:first-of-type {
+  position:relative;
+  float:right;
+  text-align:justify;
+}
+.column:last-of-type {
+  float:left;
+  position:relative;
+  padding-right:10%;
+  text-align:justify;
+}
+.split-30 .column:first-of-type {width: 70%;}
+.split-30 .column:last-of-type {width: 30%;}
+.split-40 .column:first-of-type {width: 60%;}
+.split-40 .column:last-of-type {width: 40%;}
+.split-50 .column:first-of-type {width: 50%;}
+.split-50 .column:last-of-type {width: 50%;}
+.split-60 .column:first-of-type {width: 40%;}
+.split-60 .column:last-of-type {width: 60%;}
+.split-70 .column:first-of-type {width: 30%;}
+.split-70 .column:last-of-type {width: 70%;}
+
+/** Figure */
+figure {
+  float: center;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin-left:auto;
+  margin-right:auto;
+}
+/** Table */
+table {
+  margin-left:auto;
+  margin-right:auto;
+  border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    border: 1px solid rgb(202, 52, 21);
+}
+th, tr:nth-child(even) {
+  background: rgb(220, 188, 188);
+  color:white;
+}
+th {
+  font-weight:bold;
+}
