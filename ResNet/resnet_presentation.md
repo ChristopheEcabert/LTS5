@@ -61,7 +61,7 @@ He *et al*. 	***Deep Residual Learning for Image Recognition*** Proceedings of t
 - Single layer with ReLU activation function
   `$$ Var[y_l] = \frac{1}{2} n_l Var[w_l] Var[y_{l-1}] $$`
 
-- With $L$ layers 
+- With `$L$` layers 
   `$$ Var[y_l] = Var[y_1] \left( \prod_{l=2}^L \frac{1}{2} n_l Var[w_l] \right) $$`
 
 He _et al_. _Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification_ (2015)
@@ -72,8 +72,8 @@ He _et al_. _Delving Deep into Rectifiers: Surpassing Human-Level Performance on
 - Weight distribution requirements
   `$$\frac{1}{2} n_l Var[w_l] = 1, \quad \forall l $$`
 
-Therefore weight are initialized with zero mean gaussian noise with a standard deviation of $\sigma_l = \sqrt{2 /n_l}$ and $\mathbf{b}_l = 0$.
-For the first layer, $n_1 Var[w_1] = 1$ should hold as well.
+Therefore weight are initialized with zero mean gaussian noise with a standard deviation of `$\sigma_l = \sqrt{2 /n_l}$` and `$\mathbf{b}_l = 0$`.
+For the first layer, `$n_1 Var[w_1] = 1$` should hold as well.
 
 <figure>
 <img src="figures/convergence_init.png" style="width:85%;"/>
@@ -142,7 +142,7 @@ For the first layer, $n_1 Var[w_1] = 1$ should hold as well.
 
 <figure>
 <img src="figures/deep_res_cell.png" style="width:80%"/>
-<figcaption>Deeper residual function $\mathcal{F}$ for ImageNet</figcaption>
+<figcaption>Deeper residual function `$\mathcal{F}$` for ImageNet</figcaption>
 </figure>
 
 ---

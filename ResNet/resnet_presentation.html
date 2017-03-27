@@ -65,12 +65,13 @@
               skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
               processEscapes: false
           },
-          //TeX: { equationNumbers: { autoNumber: "AMS" } }
+          "HTML-CSS": { scale: 90,  availableFonts : ["STIX"], preferredFont : "STIX",webFont:"STIX-Web"}
+          //TeX: { equationNumbers: { autoNumber: "AMS" } } 
       });
       MathJax.Hub.Queue(function() {
-         $(MathJax.Hub.getAllJax()).map(function(index, elem) {
-             return(elem.SourceElement());
-         }).parent().addClass('has-jax');
+        $(MathJax.Hub.getAllJax()).map(function(index, elem) {
+          return(elem.SourceElement());
+        }).parent().addClass('has-jax');
       });
       MathJax.Hub.Configured();
     </script>
