@@ -10,9 +10,7 @@ Microsoft Research [article](https://arxiv.org/abs/1512.03385) on Residual Netwo
 
 ## Faster R-CNN : Towards Real-Time Object Detection with Region Proposal Networks 		
 
-[Faster R-CNN](https://arxiv.org/pdf/1506.01497.pdf)
+Article [Faster R-CNN](https://arxiv.org/pdf/1506.01497.pdf)
 
-​				
-​			
-​		
-​	
+Presentation [Faster R-CNN presentation](FasterRCNN/fasterrcnn_presentation.html)
+
