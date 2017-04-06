@@ -65,7 +65,7 @@ Object detection can be split into different steps
 
 .left-column50[
 
-- Initial region with Graph Based Image Segmentation
+- Initial region with *Graph Based Image Segmentation*
 - Group region based on similarity metrics
 - Output bounding box of each region
 
@@ -241,7 +241,7 @@ Fine tune convolutional layers + learn RPN
 
 - Fine tune convolutional layers + learn object detection
   -  Use proposal from step 1
-  - At this point the two networks do **NOT** share the conv layers.
+  -  At this point the two networks do **NOT** share the conv layers.
 
 ---
 
@@ -316,8 +316,8 @@ Detection results on *PASCAL VOC 2007* ***test set*** :
 | :---------------: | :---: | :-----: | :------: |
 |        SS         |  2k   |   07    |   66.9   |
 | RPN+VGG, unshared |  300  |   07    |   68.5   |
-| RPN+VGG, unshared |  300  |   07    |   69.9   |
-| RPN+VGG, unshared |  300  | 07 + 12 | **73.2** |
+|  RPN+VGG, shared  |  300  |   07    |   69.9   |
+|  RPN+VGG, shared  |  300  | 07 + 12 | **73.2** |
 
 *07 : Trainset from VOC2007*
 
