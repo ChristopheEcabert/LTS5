@@ -70,7 +70,7 @@ He _et al_. _Delving Deep into Rectifiers: Surpassing Human-Level Performance on
 # Initialization
 
 - Weight distribution requirements
-  `$$\frac{1}{2} n_l Var[w_l] = 1, \quad \forall l $$`
+  `$$ \frac{1}{2} n_l Var[w_l] = 1, \quad \forall l $$`
 
 Therefore weight are initialized with zero mean gaussian noise with a standard deviation of `$\sigma_l = \sqrt{2 /n_l}$` and `$\mathbf{b}_l = 0$`.
 For the first layer, `$n_1 Var[w_1] = 1$` should hold as well.
