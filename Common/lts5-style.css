@@ -12,6 +12,7 @@ body {
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: normal;
+  color:rgb(202, 52, 21);
 }
 .remark-code, .remark-inline-code { 
   font-family: 'Ubuntu Mono'; 
@@ -152,9 +153,6 @@ th {
 }
 
 /** Bullet point spacing */
-/*ul li {
-    padding: 5px 0px;
-}*/
 
 /** Print PDF */
 /**
