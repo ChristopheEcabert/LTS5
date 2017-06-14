@@ -72,7 +72,16 @@ h1, h2, h3 {
   float: right;
   text-align:justify;
 }
-
+.left-column35 {
+  width: 30%;
+  float: left;
+  text-align:justify;
+}
+.right-column65 {
+  width: 60%;
+  float: right;
+  text-align:justify;
+}
 .left-column40 {
   width: 35%;
   float: left;
@@ -80,6 +89,16 @@ h1, h2, h3 {
 }
 .right-column60 {
   width: 65%;
+  float: right;
+  text-align:justify;
+}
+.left-column45 {
+  width: 40%;
+  float: left;
+  text-align:justify;
+}
+.right-column55 {
+  width: 60%;
   float: right;
   text-align:justify;
 }
@@ -93,6 +112,16 @@ h1, h2, h3 {
   float: right;
   text-align:justify;
 }
+.left-column55 {
+  width: 50%;
+  float: left;
+  text-align:justify;
+}
+.right-column45 {
+  width: 40%;
+  float: right;
+  text-align:justify;
+}
 .left-column60 {
   width: 55%;
   float: left;
@@ -100,6 +129,16 @@ h1, h2, h3 {
 }
 .right-column40 {
   width: 35%;
+  float: right;
+  text-align:justify;
+}
+.left-column65 {
+  width: 60%;
+  float: left;
+  text-align:justify;
+}
+.right-column35 {
+  width: 30%;
   float: right;
   text-align:justify;
 }
