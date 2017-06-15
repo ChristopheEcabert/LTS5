@@ -104,7 +104,7 @@ Not yet released in CVPR 2017
 <figcaption>Fully Convolutional Network</figcaption>
 </figure>
 
-
+.cite-article[Simonyan *et al*, Very Deep Convolutional Networks For Large-Scale Image Recognition]
 
 ???
 
