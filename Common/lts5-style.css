@@ -165,22 +165,27 @@ figure {
 }
 /** Table */
 table {
+  margin-top:25px;
+  margin-bottom:25px;
   margin-left:auto;
   margin-right:auto;
+  width: 80%;
   border-collapse: collapse;
 }
 th, td {
-    padding: 5px;
-    border: 1px solid rgb(202, 52, 21);
+  font-size:15px;
+  padding:5px;
+  padding-left: 10px;
+  border: 0.5px solid rgb(202, 52, 21);
 }
 th, tr:nth-child(even) {
   background: rgb(220, 188, 188);
   color:white;
 }
 th {
-  font-weight:bold;
+  font-weight:normal;
   text-align:center;
-  border-width: 1px 1px 2px 1px;
+  border-width: 0.5px 0.5px 1px 0.5px;
 }
 /** Citation */
 .cite-article {
@@ -192,7 +197,9 @@ th {
 }
 
 /** Bullet point spacing */
-
+li {
+  padding-top:4px;
+}
 /** Print PDF */
 /**
   16:10 
