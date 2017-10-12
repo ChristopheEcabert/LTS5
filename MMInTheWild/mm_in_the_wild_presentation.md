@@ -143,6 +143,7 @@ Topics:
 
 ???
 
+- Trained on iBUG, LFPW, AFW dataset
 - X measurement (data with missing information)
 - L clean data to recover / E non gaussian noise (sparse representation of missing data)
 - Omega set representing the observed data (i.e. indexes)
