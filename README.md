@@ -51,3 +51,12 @@ Microsoft Research [article](https://arxiv.org/abs/1512.03385) on Residual Netwo
 
 [3D Face Morphable Models "In-The-Wild" Presentation](MMInTheWild/mm_in_the_wild_presentation.html)
 
+## Learning from Simulated and Unsupervised Images through Adversarial Training
+
+[Learning from Simulated and Unsupervised Images through Adversarial Training](http://openaccess.thecvf.com/content_cvpr_2017/papers/Shrivastava_Learning_From_Simulated_CVPR_2017_paper.pdf)
+
+*With recent progress in graphics, it has become more tractable to train models on synthetic images, poten-*
+*tially avoiding the need for expensive annotations. However, learning from synthetic images may not achieve the desired performance due to a gap between synthetic and real image distributions. To reduce this gap, we propose Simulated+Unsupervised (S+U) learning, where the task is to learn a model to improve the realism of a simulator’s output using unlabeled real data, while preserving the annotation information from the simulator. We develop a method for S+U learning that uses an adversarial network similar to Generative Adversarial Networks (GANs), but with synthetic images as inputs instead of random vectors. We make several key modifications to the standard GAN algorithm to preserve annotations, avoid artifacts, and stabilize training: (i) a ‘self-regularization’ term, (ii) a local adversarial loss, and (iii) updating the discriminator using a history of refined images. We show that this enables generation of highly realistic images, which we demonstrate both qualitatively and with a user study. We quantitatively evaluate the generated images by training models for gaze estimation and hand pose estimation. We show a significant improvement over using synthetic images, and achieve state-of-the-art results on the MPIIGaze dataset without any labeled real data.*
+
+
+[Learning from Simulated and Unsupervised Images through Adversarial Training Presentation](SimulatedUnsupervisedImage/simulated_unsupervised_image.html)
