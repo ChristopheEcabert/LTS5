@@ -70,9 +70,11 @@ Microsoft Research [article](https://arxiv.org/abs/1512.03385) on Residual Netwo
 
 [MoFA: Model-based Deep Convolutional Face Autoencoder for Unsupervised Monocular Reconstruction - Presentation](mofa/mofa.html) 
 
-​		
-​				
-​		
-​				
-​		
-​	
+# Large Pose 3D Face Reconstruction from a Single Image via Direct Volumetric CNN Regression
+
+[Large Pose 3D Face Reconstruction from a Single Image via Direct Volumetric CNN Regression](https://arxiv.org/abs/1703.07834)
+
+3D face reconstruction is a fundamental Computer Vi-sion problem of extraordinary difficulty. Current systems often assume the availability of multiple facial images (some-times from the same subject) as input, and must addressa number of methodological challenges such as establish-ing dense correspondences across large facial poses, expressions, and non-uniform illumination. In general these methods require complex and inefficient pipelines for modelbuilding and fitting. In this work, we propose to address many of these limitations by training a Convolutional Neural Network (CNN) on an appropriate dataset consisting of 2D images and 3D facial models or scans. Our CNN works with just a single 2D facial image, does not require accurate alignment nor establishes dense correspondence between images, works for arbitrary facial poses and expressions,and can be used to reconstruct the whole 3D facial geometry (including the non-visible parts of the face) bypassing the construction (during training) and fitting (during testing) of a 3D Morphable Model. We achieve this via a simple CNN architecture that performs direct regression of a volumetric representation of the 3D facial geometry from a single 2D image. We also demonstrate how the related task of facial landmark localization can be incorporated into the proposed framework and help improve reconstruction quality, especially for the cases of large poses and facial expressions. Code and models will be made available at http://aaronsplace.co.uk
+
+[Large Pose 3D Face Reconstruction from a Single Image via Direct Volumetric CNN Regression](LargePoseFaceReconstruction/LargePoseFaceReconstruction.html)
+
