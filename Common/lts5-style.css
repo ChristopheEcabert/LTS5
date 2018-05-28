@@ -14,6 +14,18 @@ h1, h2, h3 {
   font-weight: normal;
   color:rgb(202, 52, 21);
 }
+
+/** Text size */
+.text-small {
+  font-size: 0.6em;
+}
+
+/** Text color */
+.red {color:red;}
+.yellow {color:yellow;}
+.green {color:green;}
+.blue {color:blue;}
+
 .remark-code, .remark-inline-code { 
   font-family: 'Ubuntu Mono'; 
   font-size: 15px;
@@ -37,7 +49,8 @@ h1, h2, h3 {
 	font-family: "Droid Serif";
   margin-right:47%;
   margin-bottom:5px;
-	font-size: 10px;
+	font-size: 12px;
+  font-weight: bold;
   text-align: center;
 }
 /** LTS5 logo on the bottom right of the slides */
@@ -56,11 +69,12 @@ h1, h2, h3 {
 #slide-title.remark-slide-content h1{
   border-width:0px 0px 0px 0px;
 }
-/** Column layout */
+
+/** Column layout 
 .split-60 .column:first-of-type {width: 55%;}
 .split-60 .column:last-of-type {width: 35%;}
 .split-70 .column:first-of-type {width: 65%;}
-.split-70 .column:last-of-type {width: 25%;}
+.split-70 .column:last-of-type {width: 25%;}*/
 
 .left-column30 {
   width: 25%;
