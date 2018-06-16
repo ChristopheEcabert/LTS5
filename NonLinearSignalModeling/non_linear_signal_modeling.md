@@ -235,3 +235,13 @@ What's on the agenda
 
 ![:figure 40%, Spam data: test error misclassification rate for the MARS procedure ](figures/mars_spam.png)
 
+---
+
+# MARS - Issues
+
+- Classification?
+  - There is some extension to map the label to value to regress 
+  - Not straight forward
+- *CART* and *MARS* share similarities
+  - Replace basis with step function 
+
