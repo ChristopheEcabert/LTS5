@@ -125,7 +125,7 @@ template: lts5-canvas
 
 
 
-- Two proposed approaches for the classifier
+- Two proposed approaches for the *estimator*
   - Generative: *Gaussian Mixture Model*
   - Discriminative: *Support Vector Machine*
 
@@ -165,6 +165,7 @@ template: lts5-canvas
 - FRR -> Positive samples rejected
 - Free params: 99 -> close to number of samples
 - rank(`$\Sigma$`) = min(N - 1, F) = min(200 - 1, 390) = 199 -> 12 => **OK**
+- **Small** kappa == **large** steps in adaptation
 
 ---
 
