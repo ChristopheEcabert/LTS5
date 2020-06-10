@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LTS5 Alumni - Facial Image Analysis - Presentation</title>
+    <meta charset="utf-8">
+    <!-- Custom LTS5 style -->
+    <link rel="stylesheet" href="../Common/lts5-style.css" type="text/css"> 
+  </head>
+  
+  <body>
+    <!-- Remarks scripts -->
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <!-- MathJax -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+          tex2jax: {
+              inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+              displayMath: [['\\[','\\]'], ['$$','$$']],
+              skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+              processEscapes: false
+          },
+          "HTML-CSS": {availableFonts : ["Latin Modern"], preferredFont : "Latin Modern"}
+          //TeX: { equationNumbers: { autoNumber: "AMS" } } 
+      });
+      MathJax.Hub.Queue(function() {
+        $(MathJax.Hub.getAllJax()).map(function(index, elem) {
+          return(elem.SourceElement());
+        }).parent().addClass('has-jax');
+      });
+      MathJax.Hub.Configured();
+    </script>
+    <!--webFont:"Latin Modern-Web"}-->
+    <script type="text/javascript"
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script>
+      
+      /** Remark macro, see https://github.com/gnab/remark/issues/72#issuecomment-62225566 */
+      remark.macros.figure = function(scale, caption, ref) {
+        var url = this;
+        var c = '<figure> <img src="' + url + '" style="width:' + scale + '"/>';
+        if (typeof caption !== "undefined") {
+          c += '<figcaption>' + caption;
+          if(typeof ref !== "undefined") {
+            c += ' [' + ref + ']';
+          }
+          c += '</figcaption>';
+        }
+        c += '</figure>';
+        //return '<figure> <img src="' + url + '" style="width:' + scale + '"/> <figcaption>' + caption + '</figcaption></figure>';
+        return c;
+      }
+      
+      var slideshow = remark.create({
+        // Markdown source file
+        sourceUrl : "lts5_alumni.md",
+        // Set the slideshow display ratio
+        // Default: '4:3'
+        // Alternatives: '16:9', ...
+        ratio: '4:3',
+
+        // Navigation options
+        navigation: {
+          // Enable or disable navigating using scroll
+          // Default: true
+          // Alternatives: false
+          scroll: false,
+
+          // Enable or disable navigation using touch
+          // Default: true
+          // Alternatives: false
+          touch: false,
+
+          // Enable or disable navigation using click
+          // Default: false
+          // Alternatives: true
+          click: true
+        },
+
+        // .. or by using a format function
+        slideNumberFormat: '- %current% -',
+
+        // Enable or disable counting of incremental slides in the slide counting
+        countIncrementalSlides: true,
+
+        // Code Highlighting
+        // See : https://github.com/gnab/remark/wiki/Configuration
+        highlightLanguage: "no-highlight",
+        // Style Alternatives: arta, ascetic, dark, default, far, github, googlecode, idea, ir_black, magula, monokai, rainbow,
+        // solarized-dark, solarized-light, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright,
+        // tomorrow-night, tomorrow-night-eighties, vs, zenburn
+        highlightStyle: "github",
+        // highlightLines : Highlight background of code lines prefixed with *
+        highlightLines: true
+      });
+    </script>
+  </body>
+</html>
